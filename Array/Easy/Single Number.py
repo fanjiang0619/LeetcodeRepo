@@ -6,7 +6,7 @@ class Solution:
             double.remove(i)
         return int(double[0])
 
-    def singleNumber2(self, nums):
+    def singleNumber2(self, nums: List[int]) -> int:
         result = 2 * sum(set(nums)) - sum(nums)
         return result
 
